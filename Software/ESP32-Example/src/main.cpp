@@ -21,7 +21,7 @@ void setup() {
   Serial.begin(115200);
   setupPins();
   Serial.println("Testing all intensity levels:");
-  for(uint8_t intensity = 0; intensity < 255; intensity++){
+  for(uint8_t intensity = 0; intensity < 100; intensity++){
     Serial.print(intensity);
     Serial.print(":");
     Serial.println(testCurrent(intensity));
