@@ -30,7 +30,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for WT-312
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -74,7 +74,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BUIMNKFA
 
 [Document3]
-DocumentPath=OUTJOB.OutJob
+DocumentPath=..\..\..\..\..\..\..\altium-library\Celestial Altium Library.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -91,7 +91,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=..\..\..\..\..\..\..\altium-library\Celestial Altium Library.DbLib
+DocumentPath=WT-312.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=WT312.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -119,59 +136,119 @@ Variation3=Designator=R4|UniqueId=\WOSMZNXV|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Gerber\driver.DRR
+DocumentPath=Project Outputs for WT-312\Design Rule Check - WT-312.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerber\driver.EXTREP
+DocumentPath=Gerber\driver.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Gerber\driver.GBL
+DocumentPath=Gerber\driver.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerber\driver.GBO
+DocumentPath=Gerber\driver.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerber\driver.GBP
+DocumentPath=Gerber\driver.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerber\driver.GBS
+DocumentPath=Gerber\driver.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerber\driver.GM1
+DocumentPath=Gerber\driver.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerber\driver.GTL
+DocumentPath=Gerber\driver.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerber\driver.GTO
+DocumentPath=Gerber\driver.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerber\driver.GTP
+DocumentPath=Gerber\driver.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerber\driver.GTS
+DocumentPath=Gerber\driver.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerber\driver.LDP
+DocumentPath=Gerber\driver.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerber\driver.REP
+DocumentPath=Gerber\driver.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Gerber\driver.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
 DocumentPath=Gerber\driver.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=.\Gerber\WT-312.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=.\Gerber\WT-312.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\Gerber\WT-312.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=.\Gerber\WT-312.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=.\Gerber\WT-312.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=.\Gerber\WT-312.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=.\Gerber\WT-312.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=.\Gerber\WT-312.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=.\Gerber\WT-312.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=.\Gerber\WT-312.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=.\Gerber\WT-312.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=.\Gerber\WT-312.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=.\Gerber\WT-312.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=.\Gerber\WT-312.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -185,7 +262,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for WT-312
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -296,7 +373,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Sandra
+TargetPrinter=HPD1756C (HP ENVY 4500 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1085,10 +1162,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=7c7_IntegratedCircuits.IntLib
+ComponentDesignItemID0=LMC64822
+ComponentSymbolReference0=LMC64822
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1102,6 +1185,25 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Library Reference
+ParameterUpdate3=1
+ParameterName4=Price
+ParameterUpdate4=1
+ParameterName5=Supplier 1
+ParameterUpdate5=1
+ParameterName6=Supplier Part Number 1
+ParameterUpdate6=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=SOIC127P490X175-8N
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

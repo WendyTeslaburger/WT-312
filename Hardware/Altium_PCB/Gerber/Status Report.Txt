@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [WT-312.pcbdoc]
+   Generated File[WT-312.TXT]
+   Generated File[WT-312.LDP]
+   Generated File[WT-312.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:12:28 On 02/08/2021
