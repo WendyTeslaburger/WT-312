@@ -27,18 +27,18 @@ void WT312::setIntensity(uint8_t intensity){
 }
 
 int WT312::_characModule(){
-    _DAC_MAX = 0;
+    _DAC_MAX = 255;
     _DAC_MIN = 0;
 
     uint16_t prev_shuntVoltage = 0;
     for(uint8_t DACcode = 0; DACcode < 255; DACcode++){
         uint16_t shuntVoltage = _testCurrent(DACcode);
-        //Serial.println(shuntVoltage);
+        Serial.printf("DACCode: %d, Voltage: %d \n", DACcode, shuntVoltage);
         if (shuntVoltage > prev_shuntVoltage){
             _DAC_MIN = DACcode;
             prev_shuntVoltage = shuntVoltage;
         }
-        if(shuntVoltage < 5){
+        if(shuntVoltage < 250){
             _DAC_MAX = DACcode;
             break;
         }
